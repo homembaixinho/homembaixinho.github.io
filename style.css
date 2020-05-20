@@ -23,13 +23,28 @@ canvas {
   position:absolute;
   z-index: 2;
 
-  width: 10em;
-  height: 12em;
   color:white;
-
   font-family: 'VT323';
-  font-size: 3em;
+}
 
+footer {
+  font-size: 2em;
+}
+
+a {
+  color: #ffffff
+}
+
+a:hover {
+  color: #ed03ff;
+}
+
+i:hover {
+  font-size: 1.2em;
+}
+
+#float {
+  font-size: 3em;
   animation: float 6s ease-in-out infinite;
 }
 
