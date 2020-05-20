@@ -31,12 +31,12 @@ function draw() {
     for (let y = 0; y <= cols; y ++) {
       let amp, nextAmp
 
-      if (x < 1/3 * rows -1 || x > 2/3 * rows + 1) {
+      if (x < 1/3 * rows -1 || x > 2/3 * rows) {
         amp = nextAmp = 100
       } else if (x < 1/3 * rows) {
         amp = 100
         nextAmp = 10
-      } else if (x > 2/3 * rows) {
+      } else if (x > 2/3 * rows -1) {
         amp = 10
         nextAmp = 100
       } else {
