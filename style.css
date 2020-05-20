@@ -32,7 +32,8 @@ footer {
 }
 
 a {
-  color: #ffffff
+  outline: none;
+  color: #ffffff;
 }
 
 i {
@@ -44,7 +45,6 @@ i:hover {
   color: #ed03ff;
   transform: translatey(-0.5em);
 }
-
 
 #float {
   font-size: 3em;
