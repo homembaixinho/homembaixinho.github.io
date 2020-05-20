@@ -36,12 +36,12 @@ a {
   color: #ffffff;
 }
 
-i {
+footer i {
   transition: color 1s;
   transition: transform 1s;
 }
 
-i:hover {
+footer i:hover {
   color: #ed03ff;
   transform: translatey(-0.5em);
 }
