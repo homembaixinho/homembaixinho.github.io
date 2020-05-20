@@ -35,13 +35,16 @@ a {
   color: #ffffff
 }
 
-a:hover {
-  color: #ed03ff;
+i {
+  transition: color 1s;
+  transition: transform 1s;
 }
 
 i:hover {
-  font-size: 1.2em;
+  color: #ed03ff;
+  transform: translatey(-0.5em);
 }
+
 
 #float {
   font-size: 3em;
@@ -49,13 +52,7 @@ i:hover {
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-1em);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+	0% { transform: translatey(0) }
+  50% { transform: translatey(-1em) }
+  100% { transform: translatey(0) }
 }
