@@ -28,6 +28,7 @@ canvas {
 }
 
 footer {
+  transform:rotate(-5deg);
   font-size: 2em;
 }
 
@@ -44,6 +45,12 @@ footer i {
 footer i:hover {
   color: #ed03ff;
   transform: translatey(-0.5em);
+}
+
+#tilt {
+  transform:rotate(5deg);
+  margin: 3em;
+  font-size: 1.3em;
 }
 
 #float {
