@@ -14,6 +14,10 @@ canvas {
   z-index: 1 !important;
 }
 
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
 #center {
   display: flex;
   flex-direction: column;
@@ -25,6 +29,7 @@ canvas {
 
   color:white;
   font-family: 'VT323';
+  contenteditable: 'true';
 }
 
 footer {
@@ -47,7 +52,7 @@ footer i:hover {
   transform: translatey(-0.5em);
 }
 
-#tilt {
+#email {
   transform:rotate(5deg);
   margin: 3em;
   font-size: 1.3em;
