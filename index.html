@@ -7,17 +7,7 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="sketch.js"></script>
-    <script>
-      window.onload = () => { 
-        let range = document.createRange();
-        let sel = window.getSelection();
-        let p = document.getElementById('email');
-
-        range.setStart(p.lastChild, p.lastChild.length); 
-        sel.removeAllRanges();
-        sel.addRange(range);
-      }
-    </script>
+    <script src="script.js"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
