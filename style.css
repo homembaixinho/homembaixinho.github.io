@@ -29,7 +29,6 @@ canvas {
 
   color:white;
   font-family: 'VT323';
-  contenteditable: 'true';
 }
 
 footer {
@@ -52,10 +51,14 @@ footer i:hover {
   transform: translatey(-0.5em);
 }
 
-#email {
+#text {
   transform:rotate(5deg);
   margin: 3em;
   font-size: 1.3em;
+}
+
+.secret {
+  color: transparent;
 }
 
 #float {
