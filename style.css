@@ -46,10 +46,18 @@ footer i {
   transition: transform 1s;
 }
 
-footer i:hover {
-  color: #ed03ff;
+footer i:hover { color: #ed03ff; }
+
+footer a:nth-of-type(odd) i:hover {
   transform: translatey(-0.5em);
 }
+
+footer a:nth-of-type(even) i:hover {
+  transform: translatey(0.5em);
+}
+
+footer
+
 
 #text {
   transform:rotate(5deg);
