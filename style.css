@@ -56,9 +56,6 @@ footer a:nth-of-type(even) i:hover {
   transform: translatey(0.5em);
 }
 
-footer
-
-
 #text {
   transform:rotate(5deg);
   margin: 3em;
