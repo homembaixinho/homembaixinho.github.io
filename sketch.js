@@ -1,7 +1,6 @@
 let scl = 50;
 let ypos = 0;
 let speed = 0.1;
-let stripe = 30;
 let w, h, r, rows, cols;
 
 function setup() { 
@@ -11,6 +10,7 @@ function setup() {
   h = height * 2
 
   d = w/3
+  stripe = Math.floor(d/30)
 
   rows = w/scl
   cols = h/scl
