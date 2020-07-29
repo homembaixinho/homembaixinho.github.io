@@ -41,18 +41,18 @@ a {
   color: #ffffff;
 }
 
-footer i {
+footer svg {
   transition: color 1s;
   transition: transform 1s;
 }
 
-footer i:hover { color: #ed03ff; }
+footer svg:hover { color: #ed03ff; }
 
-footer a:nth-of-type(odd) i:hover {
+footer a:nth-of-type(odd) svg:hover {
   transform: translatey(-0.5em);
 }
 
-footer a:nth-of-type(even) i:hover {
+footer a:nth-of-type(even) svg:hover {
   transform: translatey(0.5em);
 }
 
