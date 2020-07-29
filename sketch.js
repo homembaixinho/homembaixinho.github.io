@@ -1,6 +1,7 @@
 let scl = 50;
 let ypos = 0;
 let speed = 0.1;
+let stripe = 30;
 let w, h, r, rows, cols;
 
 function setup() { 
@@ -61,8 +62,8 @@ function draw() {
   ellipse(0, 0, d)
 
   stroke(0)
-  strokeWeight(5)
-  for (let y = 100; y >= -d; y-= 15) {
+  strokeWeight(10)
+  for (let y = stripe; y >= -d/2; y-= stripe) {
     line(-d/2, y, d/2, y)
   }
   pop()
