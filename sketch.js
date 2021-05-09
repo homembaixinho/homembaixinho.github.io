@@ -3,13 +3,14 @@ function setup() {
 
   s = 50
   speed = 0.03
+  angle = PI/2.5
   cyan = color('#40dcfe')
   pink = color('#ed03ff')
 
   w = 1.5*width
   h = height
   rows = w/s
-  cols = h/s+1
+  cols = h/s+2
   pos = 0
   r = width/6
   
@@ -32,7 +33,7 @@ function draw() {
   pos += speed
 
   push()
-    rotateX(PI/3)
+    rotateX(angle)
     translate(-w/2, -h/2)
     strokeWeight(1)
     stroke(cyan)
@@ -49,7 +50,7 @@ function draw() {
   pop()
   
   push()
-    rotateX(5/6*PI)
+    rotateX(angle + HALF_PI)
     translate(0, h/16, h/2)
   
     stroke(pink)
